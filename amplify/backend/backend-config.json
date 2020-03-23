@@ -1,0 +1,9 @@
+{
+	"auth": {
+		"fightcovid19webapp9cb7599f": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}
