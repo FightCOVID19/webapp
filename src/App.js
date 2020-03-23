@@ -1,7 +1,10 @@
 import React from 'react';
-import { Route, Redirect } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import { ThemeProvider } from '@material-ui/styles';
 import { createMuiTheme } from '@material-ui/core/styles';
+
+import Amplify from 'aws-amplify';
+import awsconfig from './aws-exports';
 
 import Home from './pages/Home';
 import Login from './pages/Login';
@@ -9,6 +12,8 @@ import SignUp from './pages/SignUp';
 import ForgotPassword from './pages/ForgotPassword';
 import UploadPicture from './pages/upload-photo/UploadPicture';
 import PreviewPicture from './pages/upload-photo/PreviewPicture';
+
+Amplify.configure(awsconfig);
 
 let theme = createMuiTheme({
   typography: {
@@ -39,14 +44,11 @@ function App() {
 
         <Route exact path='/upload' render={() => <UploadPicture />} />
         <Route exact path='/upload/preview' render={() => <PreviewPicture />} />
-        {/* <Redirect
-          to={{
-            pathname: '/login',
-          }}
-        /> */}
       </main>
     </ThemeProvider>
   );
 }
 
 export default App;
+
+// export default withAuthenticator(App, true);
