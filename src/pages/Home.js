@@ -4,6 +4,7 @@ import RestoreIcon from '@material-ui/icons/Restore';
 import CameraAlt from '@material-ui/icons/CameraAlt';
 import AttachFile from '@material-ui/icons/AttachFile';
 import { NavLink } from 'react-router-dom';
+import withSplashScreen from '../components/withSplashScreen';
 function Home() {
   const [currentTab, setCurrentTab] = useState(0);
 
@@ -29,4 +30,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default withSplashScreen(Home);

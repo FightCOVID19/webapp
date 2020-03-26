@@ -25,9 +25,9 @@ let theme = createMuiTheme({
   },
   palette: {
     primary: {
-      light: '#63ccff',
-      main: '#009be5',
-      dark: '#006db3'
+      light: '#5e17eb',
+      main: '#310092',
+      dark: '#1c0054'
     }
   }
 });

@@ -21,9 +21,13 @@ function Login() {
   return (
     <div className="ai-login">
       <Card className="ai-login__content">
+        <div className="ai-login__logo">
+          <img src='logo.png' width="200px" height="200px"/>
+        </div>
         <Typography variant="h4">
           <FormattedMessage id="login.title"></FormattedMessage>
         </Typography>
+
         <form noValidate autoComplete="off">
           <TextField
             label={<FormattedMessage id="app.email"></FormattedMessage>}
