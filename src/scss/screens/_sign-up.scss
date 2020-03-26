@@ -7,6 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #e7f0f0;
 
   @at-root #{&}__content {
     padding: 1rem;
