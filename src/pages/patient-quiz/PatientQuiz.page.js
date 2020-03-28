@@ -31,6 +31,9 @@ export const PatientQuizPage = props => {
   };
   const onPressContact = () => {
     // Show modal
+    // eslint-disable-next-line no-console
+    console.log('onPressContact NOT IMPLEMENTED');
+    
   };
 
   return (

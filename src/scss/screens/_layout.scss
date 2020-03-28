@@ -25,8 +25,11 @@
   }
 
   @at-root #{&}__progress {
-    background-color: #1d2332;
-    height: 7px;
+    div {
+      background-color: #1d2332;
+      height: 7px;
+    }
+
   }
 
   @at-root #{&}__content {
