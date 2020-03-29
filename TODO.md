@@ -14,19 +14,19 @@ https://xd.adobe.com/view/ac833e7a-430c-4e8f-40f6-18b7a1454f69-dab2/screen/c0718
 - [ ] Home – 1
 - [ ] How do you feel? – 1
 - [ ] Patient quiz launch – 1
-- [ ] Patient quiz 1 – 1
-- [ ] Patient quiz 2 – 1
-- [ ] Patient quiz 3 – 1
-- [ ] Patient quiz 4 – 1
-- [ ] Patient quiz 5 – 1
-- [ ] Patient quiz 6 – 1
-- [ ] Patient quiz 7 – 1
-- [ ] Patient quiz 8 – 1
-- [ ] Patient quiz 9 – 1
-- [ ] Patient quiz 10 – 1
-- [ ] Patient quiz 11 – 1
-- [ ] Patient quiz 12 – 1
-- [ ] Patient quiz 13 – 1
+- [X] Patient quiz 1 – 1
+- [X] Patient quiz 2 – 1
+- [X] Patient quiz 3 – 1
+- [X] Patient quiz 4 – 1
+- [X] Patient quiz 5 – 1
+- [X] Patient quiz 6 – 1
+- [X] Patient quiz 7 – 1
+- [X] Patient quiz 8 – 1
+- [X] Patient quiz 9 – 1
+- [X] Patient quiz 10 – 1
+- [X] Patient quiz 11 – 1
+- [X] Patient quiz 12 – 1
+- [X] Patient quiz 13 – 1
 - [ ] Age – 3
 - [ ] Wohoo – 1
 - [ ] Patient risk confirmed – 1

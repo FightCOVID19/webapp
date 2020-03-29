@@ -1,6 +1,9 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #1d2332;
   margin: 0;
 }
 
-@import './screens/screens.scss';
+@import "./screens/screens.scss";
+@import "./font.scss";
+@import "./material-ui.scss";
