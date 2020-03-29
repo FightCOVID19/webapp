@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { FormattedMessage } from 'react-intl';
 import { Button } from '@material-ui/core';
+import InfoOutlined from '@material-ui/icons/InfoOutlined';
 
 import './PatientQuiz.scss';
 
@@ -10,6 +11,7 @@ function PatientQuiz({
   text,
   closeContact,
   text2,
+  onPressContact,
   onPressYes,
   onPressNo
 }) {
@@ -20,10 +22,11 @@ function PatientQuiz({
           <FormattedMessage id={text}></FormattedMessage>
         )}{' '}
         {!!closeContact && (
-          <span>
+          <span className='secondary' onClick={onPressContact}>
             <FormattedMessage
               id={'patent.quiz.closeContact'}
             ></FormattedMessage>
+            <InfoOutlined />
           </span>
         )}{' '}
         {text2 && (
@@ -63,6 +66,7 @@ PatientQuiz.propTypes = {
   text: PropTypes.string.isRequired,
   closeContact: PropTypes.bool,
   text2: PropTypes.string,
+  onPressContact: PropTypes.func,
   onPressYes: PropTypes.func,
   onPressNo: PropTypes.func
 };
