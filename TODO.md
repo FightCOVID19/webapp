@@ -6,9 +6,9 @@ Based on mocks:
 https://xd.adobe.com/view/ac833e7a-430c-4e8f-40f6-18b7a1454f69-dab2/screen/c0718166-9acf-42c2-bfd4-d08867224407/Onboarding-3-1/
 
 - [X] Splash screen
-- [ ] Onboarding 1 – 1
-- [ ] Onboarding 2 – 1
-- [ ] Onboarding 3 – 1
+- [X] Onboarding 1 – 1
+- [X] Onboarding 2 – 1
+- [X] Onboarding 3 – 1
 - [ ] Age – 2
 - [ ] Login – 1
 - [ ] Home – 1

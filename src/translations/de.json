@@ -1,0 +1,18 @@
+{
+  "app.title": "COVID-19",
+  "app.description": "Deep Vision",
+  "app.welcome": "Willkommen bei COBIC-19 Diagnose",
+  "app.email": "E-Mail",
+  "app.password": "Passwort",
+  "login.forgotPassword": "Passwort vergessen?",
+  "login.goToSignUp": "Wenn Sie kein Konto haben, erstellen Sie eines!",
+  "login.title": "Login",
+  "onboarding.start": "los gehts!",
+  "onboarding.title.1": "Identifizieren Sie die COVID-19-Symptome",
+  "onboarding.description.1": "Mit Hilfe einiger einfacher Fragen und eines Röntgenbildes können wir feststellen, ob Sie COVID-19-Symptome haben.",
+  "onboarding.title.2": "Verbessern Sie die Echtzeit-Diagnose",
+  "onboarding.description.2": "Mit den ausgefüllten Informationen und den Röntgenbildern können wir eine schnellere Erkennung von Fällen ermöglichen.",
+  "onboarding.title.3": "Helfen Sie den Regierungen",
+  "onboarding.description.3": "Regierungen sind in der Lage, die Daten zu nutzen, um schneller zu handeln und den Zusammenbruch des medizinischen Systems zu verhindern.",
+  "onboarding.error.pageNotExist": "Error: Die Onboarding Seite existiert nicht"
+}

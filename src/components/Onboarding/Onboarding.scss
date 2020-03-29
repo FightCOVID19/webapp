@@ -1,0 +1,31 @@
+/*------------------------------------*\
+  #ONBOARDING SCREEN
+\*------------------------------------*/
+
+.ai-onboarding {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7f0f0;
+  padding: 2rem 0 4rem 0;
+
+  @at-root #{&}__content {
+    padding: 1rem;
+    max-width: 400px;
+    width: 100%;
+    background-color: #fff9f5 !important;
+  }
+}
+
+.ai-onboarding-subtitle {
+  font-weight: normal;
+}
+
+.ai-onboarding-image {
+  text-align: center;
+  padding: 2rem 0rem;
+}
+.ai-onboarding-navigation {
+  text-align: center;
+}
