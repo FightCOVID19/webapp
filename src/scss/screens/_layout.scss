@@ -1,0 +1,40 @@
+/*------------------------------------*\
+  #LAYOUT
+\*------------------------------------*/
+
+.ai-layout {
+  height: 100vmax;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #e5f0f0;
+
+  p {
+    font: Bold 35px/43px Aller;
+    color: "green";
+    margin: 0;
+  }
+
+  button {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  @at-root #{&}__header {
+    width: 100%;
+  }
+
+  @at-root #{&}__progress {
+    div {
+      background-color: #1d2332;
+      height: 7px;
+    }
+
+  }
+
+  @at-root #{&}__content {
+    margin: 0rem 1rem 2rem 1rem;
+    flex: 1;
+  }
+
+}
