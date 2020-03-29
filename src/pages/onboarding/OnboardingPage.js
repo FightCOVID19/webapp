@@ -45,16 +45,14 @@ export const OnboardingPage = props => {
   };
 
   return (
-    <div>
-      <Onboarding
-        title={title}
-        description={description}
-        image={image}
-        pageNumber={pageNumber}
-        totalPages={totalPages}
-        onPressStart={onPressStart}
-        onPressNavigation={onPressNavigation}
-      />
-    </div>
+    <Onboarding
+      title={title}
+      description={description}
+      image={image}
+      pageNumber={pageNumber}
+      totalPages={totalPages}
+      onPressStart={onPressStart}
+      onPressNavigation={onPressNavigation}
+    />
   );
 };
