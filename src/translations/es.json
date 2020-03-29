@@ -1,8 +1,18 @@
 {
+  "app.title": "COVID-19",
+  "app.description": "Deep Vision",
   "app.welcome": "Bienvenidos a COBIC-19 Diagnosis",
   "app.email": "correo electrónico",
   "app.password": "contraseña",
   "login.forgotPassword": "¿olvidaste tu contraseña?",
   "login.goToSignUp": "No tienes cuenta, registrate",
-  "login.title": "Iniciar sesión"
+  "login.title": "Iniciar sesión",
+  "onboarding.start": "Iniciar",
+  "onboarding.title.1": "Identificar los síntomas del COVID-19",
+  "onboarding.description.1": "A través de algunas preguntas simples y uns rayos X, podemos identificar si tiene síntomas de COVID-19",
+  "onboarding.title.2": "Mejora el diagnóstico en tiempo real",
+  "onboarding.description.2": "Con la información suministrada y los rayos X, podemos ayudar de manera más rápida a detectar casos",
+  "onboarding.title.3": "Ayudar a los gobiernos",
+  "onboarding.description.3": "Los gobiernos pueden utilizar los datos para actuar más rápido y evitar el colapso del sistema médico.",
+  "onboarding.error.pageNotExist": "Error: La onboarding pagina no existe"
 }

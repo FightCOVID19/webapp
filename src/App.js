@@ -3,8 +3,8 @@ import { Route } from 'react-router-dom';
 import { ThemeProvider } from '@material-ui/styles';
 import { createMuiTheme } from '@material-ui/core/styles';
 
-import Amplify from 'aws-amplify';
-import awsconfig from './aws-exports';
+//import Amplify from 'aws-amplify';
+//import awsconfig from './aws-exports';
 
 import Home from './pages/Home';
 import Login from './pages/Login';
@@ -12,8 +12,10 @@ import SignUp from './pages/SignUp';
 import ForgotPassword from './pages/ForgotPassword';
 import UploadPicture from './pages/upload-photo/UploadPicture';
 import PreviewPicture from './pages/upload-photo/PreviewPicture';
+import { OnboardingPage } from './pages/onboarding/OnboardingPage';
 
-Amplify.configure(awsconfig);
+
+//Amplify.configure(awsconfig);
 
 let theme = createMuiTheme({
   typography: {
@@ -28,7 +30,7 @@ let theme = createMuiTheme({
       light: '#5e17eb',
       main: '#310092',
       dark: '#1c0054'
-    }
+    },
   }
 });
 
@@ -40,6 +42,8 @@ function App() {
         <Route exact path='/signUp' render={() => <SignUp />} />
         <Route exact path='/' render={() => <Login />} />
         <Route exact path='/forgot' render={() => <ForgotPassword />} />
+        <Route exact path='/onboarding/:id' render={(props) => <OnboardingPage {...props} />} />
+
 
 
         <Route exact path='/upload' render={() => <UploadPicture />} />
