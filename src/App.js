@@ -15,26 +15,8 @@ import { PatientQuizPage } from './pages/patient-quiz/PatientQuiz.page';
 import { paisanosTheme } from './theme/paisanos.theme';
 import { OnboardingPage } from './pages/onboarding/OnboardingPage';
 
-// Amplify.configure(awsconfig);
-
 //Amplify.configure(awsconfig);
 
-let theme = createMuiTheme({
-  typography: {
-    h5: {
-      fontWeight: 500,
-      fontSize: 26,
-      letterSpacing: 0.5
-    }
-  },
-  palette: {
-    primary: {
-      light: '#5e17eb',
-      main: '#310092',
-      dark: '#1c0054'
-    },
-  }
-});
 
 function App() {
   return (
