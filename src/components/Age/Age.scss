@@ -1,0 +1,36 @@
+/*------------------------------------*\
+  #AGE SCREENS
+\*------------------------------------*/
+
+.ai-age {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #e7f0f0;
+  padding: 2rem 0 2rem 0;
+}
+
+.ai-age .ai-age-content {
+  padding: 1rem;
+  max-width: 400px;
+  width: 100%;
+  background-color: #fff9f5 !important;
+}
+.ai-age .ai-age-question {
+  padding: 15rem 0;
+}
+
+.ai-age .ai-age-under {
+  padding: 4rem 0;
+}
+
+.ai-age .ai-age-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.ai-age .ai-age-image {
+  text-align: center;
+  padding: 5rem 0rem 2rem 0;
+}
