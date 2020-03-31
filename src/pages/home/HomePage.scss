@@ -1,0 +1,46 @@
+/*------------------------------------*\
+  #AGE SCREENS
+\*------------------------------------*/
+
+.ai-home-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #fff9f5;
+}
+
+.ai-home-page .ai-home-page-content {
+  max-width: 400px;
+  width: 100%;
+  background-color: #ffffff !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.ai-home-page .ai-home-page-title {
+  padding: 1rem 2rem 1rem 1rem;
+  margin: 0 1rem 1rem 1rem;
+  z-index: 5;
+}
+
+.ai-home-page .ai-home-page-box {
+  text-align: center;
+  padding: 4rem 0rem;
+  margin: 0 2rem 2rem 2rem;
+  z-index: 5;
+}
+
+.ai-home-page .ai-home-page-box:hover {
+  cursor: pointer;
+}
+
+.ai-home-page .ai-home-page-white-background {
+  position: absolute;
+  top: 0px;
+  background-color: #e7f0f0;
+  width: 400px;
+  height: 480px;
+  padding: 0;
+  margin: 0;
+}
