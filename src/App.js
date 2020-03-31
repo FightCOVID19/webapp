@@ -14,6 +14,8 @@ import PreviewPicture from './pages/upload-photo/PreviewPicture';
 import { PatientQuizPage } from './pages/patient-quiz/PatientQuiz.page';
 import { paisanosTheme } from './theme/paisanos.theme';
 import { OnboardingPage } from './pages/onboarding/OnboardingPage';
+import AgePage from './pages/age/AgePage';
+
 
 //Amplify.configure(awsconfig);
 
@@ -28,9 +30,7 @@ function App() {
         <Route exact path='/forgot' render={() => <ForgotPassword />} />
         <Route exact path='/patient-quiz/:id' render={(props) => <PatientQuizPage {...props} />} />
         <Route exact path='/onboarding/:id' render={(props) => <OnboardingPage {...props} />} />
-
-
-
+        <Route exact path='/age' render={(props) => <AgePage {...props} />} />
         <Route exact path='/upload' render={() => <UploadPicture />} />
         <Route exact path='/upload/preview' render={() => <PreviewPicture />} />
       </main>

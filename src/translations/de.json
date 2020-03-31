@@ -14,5 +14,9 @@
   "onboarding.description.2": "Mit den ausgefüllten Informationen und den Röntgenbildern können wir eine schnellere Erkennung von Fällen ermöglichen.",
   "onboarding.title.3": "Helfen Sie den Regierungen",
   "onboarding.description.3": "Regierungen sind in der Lage, die Daten zu nutzen, um schneller zu handeln und den Zusammenbruch des medizinischen Systems zu verhindern.",
-  "onboarding.error.pageNotExist": "Error: Die Onboarding Seite existiert nicht"
+  "onboarding.error.pageNotExist": "Error: Die Onboarding Seite existiert nicht",
+  "age.question": "Sind Sie 18 Jahre alt?",
+  "age.underAge": "Es tut uns leid, aber aus gesätzlichen Gründen können nur Personen über 18 Jahren die Plattform benutzen.",
+  "general.yes": "Ja",
+  "general.no": "Nein"
 }
