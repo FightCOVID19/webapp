@@ -17,6 +17,8 @@
   "onboarding.error.pageNotExist": "Error: Die Onboarding Seite existiert nicht",
   "age.question": "Sind Sie 18 Jahre alt?",
   "age.underAge": "Es tut uns leid, aber aus gesätzlichen Gründen können nur Personen über 18 Jahren die Plattform benutzen.",
+  "home.welcome": "Welcome!",
+  "home.selectPatientDoctor": "Select if you are a patient or doctor",
   "general.yes": "Ja",
   "general.no": "Nein"
 }

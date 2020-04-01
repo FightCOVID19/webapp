@@ -41,6 +41,8 @@
   "patent.quiz.no": "no",
   "age.question": "Are you 18 years old?",
   "age.underAge": "We sorry but for legacy issues only people older than 18 are able to use the platform",
+  "home.welcome": "Welcome!",
+  "home.selectPatientDoctor": "Select if you are a patient or doctor",
   "general.yes": "Yes",
   "general.no": "No"
 }

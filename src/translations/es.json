@@ -41,6 +41,8 @@
   "patent.quiz.no": "no",
   "age.question": "Eres mayor de 18 años?",
   "age.underAge": "Lo sentimos, pero por cuestiones legales sólo las personas mayores de 18 años pueden utilizar la plataforma",
+  "home.welcome": "Bievenido!",
+  "home.selectPatientDoctor": "Seleccione si usted es un paciente o un doctor",
   "general.yes": "Si",
   "general.no": "No"
 }
