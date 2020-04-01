@@ -30,7 +30,7 @@ export default class HomePage extends Component {
   * On press doctor
   */
   onPressDoctor() {
-    this.props.history.push('/LoginDoctor');
+    this.props.history.push('/loginDoctor');
   }
 
   render() {
