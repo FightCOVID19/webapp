@@ -9,7 +9,7 @@ https://xd.adobe.com/view/ac833e7a-430c-4e8f-40f6-18b7a1454f69-dab2/screen/c0718
 - [X] Onboarding 1 – 1
 - [X] Onboarding 2 – 1
 - [X] Onboarding 3 – 1
-- [ ] Age – 2
+- [X] Age – 2
 - [ ] Login – 1
 - [ ] Home – 1
 - [ ] How do you feel? – 1
@@ -27,7 +27,7 @@ https://xd.adobe.com/view/ac833e7a-430c-4e8f-40f6-18b7a1454f69-dab2/screen/c0718
 - [X] Patient quiz 11 – 1
 - [X] Patient quiz 12 – 1
 - [X] Patient quiz 13 – 1
-- [ ] Age – 3
+- [X] Age – 3
 - [ ] Wohoo – 1
 - [ ] Patient risk confirmed – 1
 - [ ] Stay home – 1

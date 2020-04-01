@@ -38,5 +38,9 @@
   "patent.quiz.13.2": "with a person who travelled outside your country in the last 14 days who has become ill (cough, fever, sneezing, or sore throat)?",
   "patent.quiz.closeContact": "close contact",
   "patent.quiz.yes": "Yes",
-  "patent.quiz.no": "no"
+  "patent.quiz.no": "no",
+  "age.question": "Eres mayor de 18 años?",
+  "age.underAge": "Lo sentimos, pero por cuestiones legales sólo las personas mayores de 18 años pueden utilizar la plataforma",
+  "general.yes": "Si",
+  "general.no": "No"
 }
