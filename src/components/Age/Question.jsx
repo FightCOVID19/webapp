@@ -33,8 +33,8 @@ function Question({
               id={'general.yes'}
             ></FormattedMessage>
           </Button>
-          <br />
           <Button
+            className="ai-age-button-no"
             onClick={onPressNo}
             color="primary"
             variant="outlined"
