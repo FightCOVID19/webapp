@@ -43,7 +43,7 @@ function Onboarding({
   if (error) {
     return (
       <div className='ai-onboarding'>
-        <Card className="ai-onboarding__content">
+        <Card className="ai-onboarding-content">
           <p>
             <Typography variant="h4" align="center">
               <FormattedMessage id={error}></FormattedMessage>
@@ -55,8 +55,8 @@ function Onboarding({
   }
   return (
     <div className='ai-onboarding'>
-      <Card className="ai-onboarding__content">
-        <p>
+      <Card className="ai-onboarding-content">
+        <div className="ai-onboarding-title">
           <Typography variant="h4" align="center">
             <FormattedMessage id="app.title"></FormattedMessage>
           </Typography>
@@ -65,23 +65,24 @@ function Onboarding({
               {txt => <span className="ai-onboarding-subtitle">{txt.toUpperCase()}</span>}
             </FormattedMessage>
           </Typography>
-        </p>
+        </div>
         <div className="ai-onboarding-image">
           <img src={image} />
         </div>
-        <p>
+        <div className="ai-onboarding-text">
           <Typography variant="h6" align="center">
             <FormattedMessage id={title}></FormattedMessage>
           </Typography>
           <Typography variant="body1" align="center">
             <FormattedMessage id={description}></FormattedMessage>
           </Typography>
-        </p>
+        </div>
         <div className="ai-onboarding-navigation">
           {pagesOnboardingNavigation.map(page => page)}
         </div>
-        <div>
+        <div className="ai-onboarding-buttons-group">
           <Button
+            className="ai-onboarding-button"
             onClick={onPressStart}
             color="primary"
             variant="contained"

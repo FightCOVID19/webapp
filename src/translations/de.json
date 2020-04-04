@@ -20,5 +20,8 @@
   "home.welcome": "Welcome!",
   "home.selectPatientDoctor": "Select if you are a patient or doctor",
   "general.yes": "Ja",
-  "general.no": "Nein"
+  "general.no": "Nein",
+  "howDoYouFeel.title": "Wie geht es Ihnen heute?",
+  "howDoYouFeel.notGood": "Nicht so gut :(",
+  "howDoYouFeel.great": "Großartig!"
 }

@@ -44,5 +44,8 @@
   "home.welcome": "Welcome!",
   "home.selectPatientDoctor": "Select if you are a patient or doctor",
   "general.yes": "Yes",
-  "general.no": "No"
+  "general.no": "No",
+  "howDoYouFeel.title": "How do you feel today?",
+  "howDoYouFeel.notGood": "Not so good :(",
+  "howDoYouFeel.great": "Great!"
 }

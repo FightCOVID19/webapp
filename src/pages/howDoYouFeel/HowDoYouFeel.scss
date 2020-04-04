@@ -1,0 +1,43 @@
+/*------------------------------------*\
+  #AGE SCREENS
+\*------------------------------------*/
+
+.ai-how-do-you-feel-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #fff9f5;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.ai-how-do-you-feel-page .ai-how-do-you-feel-content {
+  max-width: 400px;
+  height: 95vh;
+  width: 100%;
+  background-color: #e7f0f0 !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.ai-how-do-you-feel-page .ai-how-do-you-feel-navigation {
+  justify-content: left;
+  padding-left: 1rem;
+}
+.ai-how-do-you-feel-page .ai-how-do-you-feel-title {
+  padding-left: 2rem;
+  padding-right: 50%;
+  flex-grow: 7;
+}
+
+.ai-how-do-you-feel-page .ai-how-do-you-feel-button-group {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.ai-how-do-you-feel-page .ai-how-do-you-feel-button {
+  margin-top: 1rem;
+  text-transform: capitalize !important;
+}

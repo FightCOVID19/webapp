@@ -8,10 +8,12 @@
   justify-content: center;
   align-items: flex-start;
   background-color: #fff9f5;
+  padding-top: 1rem;
 }
 
 .ai-home-page .ai-home-page-content {
   max-width: 400px;
+  height: 95vh;
   width: 100%;
   background-color: #ffffff !important;
   display: flex;
@@ -37,7 +39,7 @@
 
 .ai-home-page .ai-home-page-white-background {
   position: absolute;
-  top: 0px;
+  top: 1rem;
   background-color: #e7f0f0;
   width: 400px;
   height: 480px;

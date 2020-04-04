@@ -18,7 +18,7 @@
   background-color: #fff9f5 !important;
 }
 .ai-age .ai-age-question {
-  padding: 15rem 0;
+  padding: 14rem 0;
 }
 
 .ai-age .ai-age-under {
@@ -28,6 +28,10 @@
 .ai-age .ai-age-buttons {
   display: flex;
   flex-direction: column;
+}
+
+.ai-age .ai-age-button-no {
+  margin-top: 1rem;
 }
 
 .ai-age .ai-age-image {
