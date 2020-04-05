@@ -12,7 +12,7 @@ https://xd.adobe.com/view/ac833e7a-430c-4e8f-40f6-18b7a1454f69-dab2/screen/c0718
 - [X] Age – 2
 - [ ] Login – 1
 - [X] Home – 1
-- [ ] How do you feel? – 1
+- [X] How do you feel? – 1
 - [ ] Patient quiz launch – 1
 - [X] Patient quiz 1 – 1
 - [X] Patient quiz 2 – 1
@@ -33,4 +33,5 @@ https://xd.adobe.com/view/ac833e7a-430c-4e8f-40f6-18b7a1454f69-dab2/screen/c0718
 - [ ] Stay home – 1
 - [ ] Close Contact
 - [ ] Page Home: update the path patients (howDoYouFeel) and doctor (loginDoctor)
+- [ ] Page How do you feel: update the path "Not so good" and "Great"
 - [ ] Add german translations to the patient quiz
