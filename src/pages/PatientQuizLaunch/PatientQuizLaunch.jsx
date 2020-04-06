@@ -19,15 +19,15 @@ function PatientQuizLaunch(props) {
       <Layout
         onPressBack={onPressBack}
       >
-        <div className='ai-patient-quiz'>
+        <div className='ai-layout__content'>
           <div>
             <h1><FormattedMessage id={'patientQuizLaunch.title'}></FormattedMessage></h1>
             <p><FormattedMessage id={'patientQuizLaunch.description.1'}></FormattedMessage></p>
             <p><FormattedMessage id={'patientQuizLaunch.description.2'}></FormattedMessage></p>
           </div>
-          <div className="ai-patient-bottom">
+          <div className="ai-layout__content__bottom">
             <img src={Surface} />
-            <p className="ai-patient-quiz__hint"><FormattedMessage id={'patientQuizLaunch.description.1'}></FormattedMessage></p>
+            <p className="hint"><FormattedMessage id={'patientQuizLaunch.description.1'}></FormattedMessage></p>
             <Button
               onClick={onPressStart}
               color="primary"

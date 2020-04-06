@@ -37,7 +37,7 @@ export default class HowDoYouFeel extends Component {
   * On press not feel good
   */
   onPressNotFeelGood() {
-    this.props.history.push('/quizLaunch');
+    this.props.history.push('/patient-quiz-launch');
   }
 
 

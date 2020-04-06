@@ -19,7 +19,7 @@ export const Layout = ({ children, onPressBack, page, totalPages }) => {
           <ArrowBackIcon fontSize="large" />
         </IconButton>
       </div>
-      <div className="ai-layout__content">{children}</div>
+      <div className="ai-layout__container">{children}</div>
     </div>
   );
 };

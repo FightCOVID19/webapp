@@ -11,6 +11,8 @@ https://xd.adobe.com/view/ac833e7a-430c-4e8f-40f6-18b7a1454f69-dab2/screen/c0718
 - [X] Onboarding 3 – 1
 - [X] Age – 2
 - [ ] Login – 1
+- [ ] Login Doctor – 1
+- [ ] Verification – 1
 - [X] Home – 1
 - [X] How do you feel? – 1
 - [X] Patient quiz launch – 1
@@ -28,7 +30,7 @@ https://xd.adobe.com/view/ac833e7a-430c-4e8f-40f6-18b7a1454f69-dab2/screen/c0718
 - [X] Patient quiz 12 – 1
 - [X] Patient quiz 13 – 1
 - [X] Age – 3
-- [ ] Wohoo – 1
+- [X] Wohoo – 1
 - [ ] Patient risk confirmed – 1
 - [ ] Stay home – 1
 - [ ] Close Contact

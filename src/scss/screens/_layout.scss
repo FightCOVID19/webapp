@@ -19,14 +19,24 @@
     margin: 1rem 0px;
   }
 
-  .ai-patient-bottom {
-    text-align: center;
+  @at-root #{&}__content {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
-    .ai-patient-quiz__hint {
-      padding-bottom: 1rem;
-      font: 16px/20px Aller;
+    @at-root #{&}__bottom {
+      text-align: center;
+
+      .hint {
+        padding-bottom: 1rem;
+        font: 16px/20px Aller;
+      }
     }
   }
+
+
 
   button {
     height: 56px;
@@ -46,7 +56,7 @@
 
   }
 
-  @at-root #{&}__content {
+  @at-root #{&}__container {
     margin: 0rem 1rem 2rem 1rem;
     flex: 1;
   }
