@@ -11,13 +11,13 @@ export const Layout = ({ children, onPressBack, page, totalPages }) => {
           <div style={{ width: `${Math.ceil(page / totalPages * 100)}%` }} />
         </div>}
 
-        <IconButton
+        {onPressBack && <IconButton
           color="primary"
           aria-label="previous page"
           onClick={onPressBack}
         >
           <ArrowBackIcon fontSize="large" />
-        </IconButton>
+        </IconButton>}
       </div>
       <div className="ai-layout__container">{children}</div>
     </div>

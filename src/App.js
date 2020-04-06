@@ -18,6 +18,7 @@ import AgePage from './pages/age/AgePage';
 import HomePage from './pages/home/HomePage';
 import HowDoYouFeel from './pages/howDoYouFeel/HowDoYouFeel';
 import PatientQuizLaunch from './pages/PatientQuizLaunch';
+import Wohoo from './pages/Wohoo';
 
 
 //Amplify.configure(awsconfig);
@@ -37,6 +38,7 @@ function App() {
         <Route exact path='/age' render={(props) => <AgePage {...props} />} />
         <Route exact path='/homeNew' render={(props) => <HomePage {...props} />} />
         <Route exact path='/howDoYouFeel' render={(props) => <HowDoYouFeel {...props} />} />
+        <Route exact path='/wohoo' render={(props) => <Wohoo {...props} />} />
         <Route exact path='/upload' render={() => <UploadPicture />} />
         <Route exact path='/upload/preview' render={() => <PreviewPicture />} />
       </main>
