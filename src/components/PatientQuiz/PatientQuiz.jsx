@@ -17,7 +17,7 @@ function PatientQuiz({
 }) {
   return (
     <div className='ai-patient-quiz'>
-      <p>
+      <h1>
         {text && (
           <FormattedMessage id={text}></FormattedMessage>
         )}{' '}
@@ -32,7 +32,7 @@ function PatientQuiz({
         {text2 && (
           <FormattedMessage id={text2}></FormattedMessage>
         )}
-      </p>
+      </h1>
       <div>
         <Button
           onClick={onPressYes}

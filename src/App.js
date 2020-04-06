@@ -17,6 +17,7 @@ import { OnboardingPage } from './pages/onboarding/OnboardingPage';
 import AgePage from './pages/age/AgePage';
 import HomePage from './pages/home/HomePage';
 import HowDoYouFeel from './pages/howDoYouFeel/HowDoYouFeel';
+import PatientQuizLaunch from './pages/PatientQuizLaunch';
 
 
 //Amplify.configure(awsconfig);
@@ -30,6 +31,7 @@ function App() {
         <Route exact path='/signUp' render={() => <SignUp />} />
         <Route exact path='/' render={() => <Login />} />
         <Route exact path='/forgot' render={() => <ForgotPassword />} />
+        <Route exact path='/patient-quiz-launch' render={(props) => <PatientQuizLaunch {...props} />} />
         <Route exact path='/patient-quiz/:id' render={(props) => <PatientQuizPage {...props} />} />
         <Route exact path='/onboarding/:id' render={(props) => <OnboardingPage {...props} />} />
         <Route exact path='/age' render={(props) => <AgePage {...props} />} />

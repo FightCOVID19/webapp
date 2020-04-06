@@ -1,5 +1,6 @@
 import React from 'react';
-import { Layout } from '../../components/PatientQuiz/Layout';
+import PropTypes from 'prop-types';
+import { Layout } from '../../components/Layout';
 import { patientQuizData } from './PatientQuizData';
 import PatientQuiz from '../../components/PatientQuiz/PatientQuiz';
 
@@ -54,4 +55,9 @@ export const PatientQuizPage = props => {
       </Layout>
     </div>
   );
+};
+
+PatientQuizPage.propTypes = {
+  history: PropTypes.objectOf(Object),
+  match: PropTypes.objectOf(Object),
 };

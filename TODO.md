@@ -13,7 +13,7 @@ https://xd.adobe.com/view/ac833e7a-430c-4e8f-40f6-18b7a1454f69-dab2/screen/c0718
 - [ ] Login – 1
 - [X] Home – 1
 - [X] How do you feel? – 1
-- [ ] Patient quiz launch – 1
+- [X] Patient quiz launch – 1
 - [X] Patient quiz 1 – 1
 - [X] Patient quiz 2 – 1
 - [X] Patient quiz 3 – 1

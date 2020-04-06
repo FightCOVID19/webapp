@@ -7,9 +7,9 @@ export const Layout = ({ children, onPressBack, page, totalPages }) => {
   return (
     <div className="ai-layout blue">
       <div className="ai-layout__header">
-        <div className="ai-layout__progress">
+        {page != undefined && totalPages != undefined && <div className="ai-layout__progress">
           <div style={{ width: `${Math.ceil(page / totalPages * 100)}%` }} />
-        </div>
+        </div>}
 
         <IconButton
           color="primary"
