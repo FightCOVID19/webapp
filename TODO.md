@@ -32,7 +32,7 @@ https://xd.adobe.com/view/ac833e7a-430c-4e8f-40f6-18b7a1454f69-dab2/screen/c0718
 - [X] Age – 3
 - [X] Wohoo – 1
 - [X] Patient risk confirmed – 1
-- [ ] Patient risk confirmed – 3
+- [X] Patient risk confirmed – 3
 - [ ] Patient risk confirmed – 4
 - [ ] Stay home – 1
 - [ ] Close Contact
