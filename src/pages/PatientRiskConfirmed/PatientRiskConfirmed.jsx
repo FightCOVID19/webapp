@@ -20,7 +20,7 @@ function PatientRiskConfirmed(props) {
             <div className="ai-layout__content__svg" >
               <Ambulance />
             </div>
-            <h1><FormattedMessage id={'patientQuizLaunch.message'}></FormattedMessage></h1>
+            <h1><FormattedMessage id={'patientRiskConfirmed.message'}></FormattedMessage></h1>
 
           </div>
           <div className="ai-layout__content__bottom">
