@@ -50,7 +50,7 @@ function Wohoo(props) {
               fullWidth
             >
               <FormattedMessage
-                id={'wohoo.finish'}
+                id={'finish'}
               ></FormattedMessage>
             </Button>
           </div>

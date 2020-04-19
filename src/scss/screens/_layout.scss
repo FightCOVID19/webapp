@@ -26,6 +26,12 @@
     flex-direction: column;
     justify-content: space-between;
 
+    @at-root #{&}__svg {
+      text-align: center;
+      margin: 1rem;
+      padding-bottom: 1rem;
+    }
+
     @at-root #{&}__bottom {
       text-align: center;
 
