@@ -17,6 +17,10 @@ import { OnboardingPage } from './pages/onboarding/OnboardingPage';
 import AgePage from './pages/age/AgePage';
 import HomePage from './pages/home/HomePage';
 import HowDoYouFeel from './pages/howDoYouFeel/HowDoYouFeel';
+import PatientQuizLaunch from './pages/PatientQuizLaunch';
+import Wohoo from './pages/Wohoo';
+import PatientRiskConfirmed from './pages/PatientRiskConfirmed';
+import PatientRiskConfirmedXRay from './pages/PatientRiskConfirmedXRay/PatientRiskConfirmedXRay';
 
 
 //Amplify.configure(awsconfig);
@@ -30,11 +34,15 @@ function App() {
         <Route exact path='/signUp' render={() => <SignUp />} />
         <Route exact path='/' render={() => <Login />} />
         <Route exact path='/forgot' render={() => <ForgotPassword />} />
+        <Route exact path='/patient-quiz-launch' render={(props) => <PatientQuizLaunch {...props} />} />
         <Route exact path='/patient-quiz/:id' render={(props) => <PatientQuizPage {...props} />} />
         <Route exact path='/onboarding/:id' render={(props) => <OnboardingPage {...props} />} />
         <Route exact path='/age' render={(props) => <AgePage {...props} />} />
         <Route exact path='/homeNew' render={(props) => <HomePage {...props} />} />
         <Route exact path='/howDoYouFeel' render={(props) => <HowDoYouFeel {...props} />} />
+        <Route exact path='/patient-risk-confirmed' render={(props) => <PatientRiskConfirmed {...props} />} />
+        <Route exact path='/patient-risk-confirmed-x-ray' render={(props) => <PatientRiskConfirmedXRay {...props} />} />
+        <Route exact path='/wohoo' render={(props) => <Wohoo {...props} />} />
         <Route exact path='/upload' render={() => <UploadPicture />} />
         <Route exact path='/upload/preview' render={() => <PreviewPicture />} />
       </main>

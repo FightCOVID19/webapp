@@ -4,9 +4,6 @@ import { FormattedMessage } from 'react-intl';
 import { Button } from '@material-ui/core';
 import InfoOutlined from '@material-ui/icons/InfoOutlined';
 
-import './PatientQuiz.scss';
-
-
 function PatientQuiz({
   text,
   closeContact,
@@ -16,8 +13,8 @@ function PatientQuiz({
   onPressNo
 }) {
   return (
-    <div className='ai-patient-quiz'>
-      <p>
+    <div className='ai-layout__content'>
+      <h1>
         {text && (
           <FormattedMessage id={text}></FormattedMessage>
         )}{' '}
@@ -32,7 +29,7 @@ function PatientQuiz({
         {text2 && (
           <FormattedMessage id={text2}></FormattedMessage>
         )}
-      </p>
+      </h1>
       <div>
         <Button
           onClick={onPressYes}
