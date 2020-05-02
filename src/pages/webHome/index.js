@@ -32,7 +32,7 @@ const howToHelp = [
 /**
 * Web home
 */
-class WebHome extends Component {
+export class WebHome extends Component {
   constructor(props) {
     super(props);
     this.viewLoginSocialMedia = this.viewLoginSocialMedia.bind(this);
