@@ -25,8 +25,7 @@ const howToHelp = [
 ];
 
 /**
-* View login social media
-* This function returns a view with the icons Google, Facebook and Apple
+* View how to help
 */
 function ViewHowToHelp() {
   return (
