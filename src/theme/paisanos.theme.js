@@ -6,9 +6,20 @@ export const paisanosTheme = createMuiTheme({
       fontWeight: 500,
       fontSize: 26,
       letterSpacing: 0.5
+    },
+    button: {
+      textTransform: 'none',
+    },
+
+  },
+  overrides: {
+    MuiOutlinedInput: {
+      root: {
+        backgroundColor: 'rgba(255,255,255,1)',
+      }
     }
   },
-  shape:{}, 
+  shape:{},
   palette: {
     primary: {
       // light: will be calculated from palette.primary.main,

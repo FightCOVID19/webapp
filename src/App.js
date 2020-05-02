@@ -17,6 +17,7 @@ import { OnboardingPage } from './pages/onboarding/OnboardingPage';
 import AgePage from './pages/age/AgePage';
 import HomePage from './pages/home/HomePage';
 import HowDoYouFeel from './pages/howDoYouFeel/HowDoYouFeel';
+import WebHome from './pages/webHome';
 
 
 //Amplify.configure(awsconfig);
@@ -26,6 +27,8 @@ function App() {
   return (
     <ThemeProvider theme={paisanosTheme}>
       <main>
+
+        <Route exact path='/webHome' render={(props) => <WebHome {...props} />} />
         <Route exact path='/home' render={() => <Home />} />
         <Route exact path='/signUp' render={() => <SignUp />} />
         <Route exact path='/' render={() => <Login />} />
