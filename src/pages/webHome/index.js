@@ -35,8 +35,8 @@ const howToHelp = [
 export class WebHome extends Component {
   constructor(props) {
     super(props);
-    this.viewLoginSocialMedia = this.viewLoginSocialMedia.bind(this);
-    this.viewHowToHelp = this.viewHowToHelp.bind(this);
+    this.ViewLoginSocialMedia = this.ViewLoginSocialMedia.bind(this);
+    this.ViewHowToHelp = this.ViewHowToHelp.bind(this);
     this.onPressGoogle = this.onPressGoogle.bind(this);
     this.onPressFacebook = this.onPressFacebook.bind(this);
     this.onPressApple = this.onPressApple.bind(this);
@@ -67,7 +67,7 @@ export class WebHome extends Component {
   * View login social media
   * This function returns a view with the icons Google, Facebook and Apple
   */
-  viewLoginSocialMedia() {
+  ViewLoginSocialMedia() {
     return (
       <div className="wrapper">
         <div>
@@ -114,7 +114,7 @@ export class WebHome extends Component {
   * View how to help
   * This function returns the view of each of the help forms
   */
-  viewHowToHelp() {
+  ViewHowToHelp() {
     return (
       howToHelp.map(help => (
         <Grid item xs={4} key={help.title} alignContent="center">
@@ -169,7 +169,7 @@ export class WebHome extends Component {
         {/* Social media icons used to login */}
         <Grid item xs={4} />
         <Grid item xs={8} className="icons-google-facebook-apple">
-          {this.viewLoginSocialMedia()}
+          {this.ViewLoginSocialMedia()}
         </Grid>
         {/* How do we help in the fight against COVID-19 */}
         <Grid item xs={12} >
@@ -177,7 +177,7 @@ export class WebHome extends Component {
             <FormattedMessage id="webHome.subTitle"></FormattedMessage>
           </Typography>
         </Grid>
-        {this.viewHowToHelp()}
+        {this.ViewHowToHelp()}
       </Grid>
     );
   }

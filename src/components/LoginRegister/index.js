@@ -12,7 +12,8 @@ import './index.scss';
 class LoginRegister extends Component {
   constructor(props) {
     super(props);
-    this.viewFieldsLogin = this.viewFieldsLogin.bind(this);
+    this.ViewFieldsLogin = this.ViewFieldsLogin.bind(this);
+    this.ViewFieldsRegister = this.ViewFieldsRegister.bind(this);
     this.onPressLogin = this.onPressLogin.bind(this);
     this.onPressCreateAccount= this.onPressCreateAccount.bind(this);
     this.onPressForgotPassword = this.onPressForgotPassword.bind(this);
@@ -21,7 +22,7 @@ class LoginRegister extends Component {
   /**
   * View field register
   */
-  viewFieldsRegister() {
+  ViewFieldsRegister() {
     const { formatMessage } = this.props.intl;
     return (
       <div className="webapp-register">
@@ -72,7 +73,7 @@ class LoginRegister extends Component {
   /**
   * View fields login
   */
-  viewFieldsLogin() {
+  ViewFieldsLogin() {
     const { formatMessage } = this.props.intl;
     return (
       <div className="webapp-login">
@@ -141,10 +142,10 @@ class LoginRegister extends Component {
         <form noValidate autoComplete="off">
           <Grid container spacing={6}>
             <Grid item xs={6}>
-              {this.viewFieldsLogin()}
+              {this.ViewFieldsLogin()}
             </Grid>
             <Grid item xs={6}>
-              {this.viewFieldsRegister()}
+              {this.ViewFieldsRegister()}
             </Grid>
             <Grid item xs={6}>
               {/* Button Login */}
