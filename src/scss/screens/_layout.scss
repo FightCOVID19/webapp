@@ -9,7 +9,7 @@
 
   h1 {
     font: bold 35px/43px Aller;
-    margin: 1rem 0px;
+    margin: 1em 0px;
   }
 
   h2 {
@@ -39,7 +39,7 @@
 
   p {
     font: 19px/26px Aller;
-    margin: 1rem 0px;
+    margin: 1em 0px;
   }
 
   label {
@@ -59,15 +59,15 @@
 
     @at-root #{&}__svg {
       text-align: center;
-      margin: 1rem;
-      padding-bottom: 1rem;
+      margin: 1em;
+      padding-bottom: 1em;
     }
 
     @at-root #{&}__bottom {
       text-align: center;
 
       .hint {
-        padding-bottom: 1rem;
+        padding-bottom: 1em;
         font: 16px/20px Aller;
       }
     }
@@ -76,8 +76,8 @@
 
   button {
     height: 56px;
-    margin-bottom: 0.5rem;
-    margin-top: 0.5rem;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
   }
 
   @at-root #{&}__header {
@@ -93,7 +93,7 @@
   }
 
   @at-root #{&}__container {
-    margin: 0rem 1rem 2rem 1rem;
+    margin: 0em 1em 2em 1em;
     flex: 1;
   }
 }
