@@ -31,6 +31,7 @@ class LoginRegister extends Component {
         <br />
         <InputLabel>{formatMessage({ id: 'webHome.email' })}</InputLabel>
         <TextField
+          id="emailRegister"
           fullWidth
           type="email"
           margin="normal"
@@ -42,6 +43,7 @@ class LoginRegister extends Component {
         />
         <InputLabel>{formatMessage({ id: 'webHome.password' })}</InputLabel>
         <TextField
+          id="passwordRegister"
           type="password"
           fullWidth
           margin="normal"
@@ -53,6 +55,7 @@ class LoginRegister extends Component {
         />
         <InputLabel>{formatMessage({ id: 'webHome.confirmPassword' })}</InputLabel>
         <TextField
+          id="confirmPasswordRegister"
           type="password"
           fullWidth
           margin="normal"
@@ -79,6 +82,7 @@ class LoginRegister extends Component {
         <br />
         <InputLabel>{formatMessage({ id: 'webHome.email' })}</InputLabel>
         <TextField
+          id="email"
           fullWidth
           type="email"
           margin="normal"
@@ -87,10 +91,11 @@ class LoginRegister extends Component {
           }}
           placeholder={formatMessage({ id: 'webHome.emailAddress' })}
           variant="outlined"
-          
+
         />
         <InputLabel>{formatMessage({ id: 'webHome.password' })}</InputLabel>
         <TextField
+          id="password"
           type="password"
           fullWidth
           margin="normal"
@@ -175,10 +180,6 @@ class LoginRegister extends Component {
 LoginRegister.propTypes = {
   history: PropTypes.objectOf(Object),
   intl: PropTypes.objectOf(String).isRequired,
-};
-
-LoginRegister.contextTypes = {
-  intl: PropTypes.object.isRequired,
 };
 
 export default injectIntl(LoginRegister);

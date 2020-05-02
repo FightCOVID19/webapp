@@ -72,6 +72,7 @@ class WebHome extends Component {
       <div className="wrapper">
         <div>
           <IconButton
+            id="buttonGoogle"
             onClick={this.onPressGoogle}
             fontSize="small"
           >
@@ -83,6 +84,7 @@ class WebHome extends Component {
         </div>
         <div>
           <IconButton
+            id="buttonFacebook"
             onClick={this.onPressFacebook}
             fontSize="small"
           >
@@ -94,6 +96,7 @@ class WebHome extends Component {
         </div>
         <div>
           <IconButton
+            id="buttonApple"
             onClick={this.onPressApple}
             fontSize="small"
           >
@@ -183,11 +186,6 @@ class WebHome extends Component {
 WebHome.propTypes = {
   history: PropTypes.objectOf(Object),
   intl: PropTypes.objectOf(String).isRequired,
-};
-
-
-WebHome.contextTypes = {
-  intl: PropTypes.object.isRequired,
 };
 
 export default injectIntl(WebHome);
