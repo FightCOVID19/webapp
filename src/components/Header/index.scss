@@ -1,0 +1,22 @@
+/*------------------------------------*\
+  #HEADER
+\*------------------------------------*/
+
+.webapp-header {
+  height: 50px;
+  display: flex;
+  background-color: #e7f0f0;
+  padding: 1rem 1rem 2rem 5rem;
+
+}
+
+.webapp-header .logo {
+  max-width: 40px;
+  max-height: 50px;
+}
+
+.webapp-header .logo-text text{
+  fill: #5E17EB;
+  font-weight: normal;
+  font-size: larger;
+}

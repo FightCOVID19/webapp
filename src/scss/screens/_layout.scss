@@ -3,19 +3,49 @@
 \*------------------------------------*/
 
 .ai-layout {
-  height: 100vmax;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   width: 100%;
   background-color: #e5f0f0;
 
-  p {
-    font: Bold 35px/43px Aller;
-    color: "green";
-    margin: 0;
+  h1 {
+    font: bold 35px/43px Aller;
+    margin: 1rem 0px;
   }
 
+  p {
+    font: 19px/26px Aller;
+    margin: 1rem 0px;
+  }
+
+  @at-root #{&}__content {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @at-root #{&}__svg {
+      text-align: center;
+      margin: 1rem;
+      padding-bottom: 1rem;
+    }
+
+    @at-root #{&}__bottom {
+      text-align: center;
+
+      .hint {
+        padding-bottom: 1rem;
+        font: 16px/20px Aller;
+      }
+    }
+  }
+
+
+
   button {
+    height: 56px;
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
   }
@@ -32,7 +62,7 @@
 
   }
 
-  @at-root #{&}__content {
+  @at-root #{&}__container {
     margin: 0rem 1rem 2rem 1rem;
     flex: 1;
   }
