@@ -1,7 +1,7 @@
 {
   "app.title": "COVID-19",
   "app.description": "Deep Vision",
-  "app.welcome": "Willkommen bei COBIC-19 Diagnose",
+  "app.welcome": "Willkommen bei COVID-19 Diagnose",
   "app.email": "E-Mail",
   "app.password": "Passwort",
   "login.forgotPassword": "Passwort vergessen?",

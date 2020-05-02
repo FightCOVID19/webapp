@@ -4,8 +4,6 @@ import { ThemeProvider } from '@material-ui/styles';
 
 import Amplify from 'aws-amplify';
 // import awsconfig from './aws-exports';
-
-import Home from './pages/Home';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
 import ForgotPassword from './pages/ForgotPassword';
@@ -31,9 +29,7 @@ function App() {
   return (
     <ThemeProvider theme={paisanosTheme}>
       <main>
-
-        <Route exact path='/webHome' render={(props) => <WebHome {...props} />} />
-        <Route exact path='/home' render={() => <Home />} />
+        <Route exact path='/home' render={(props) => <WebHome {...props} />} />
         <Route exact path='/signUp' render={() => <SignUp />} />
         <Route exact path='/' render={() => <Login />} />
         <Route exact path='/forgot' render={() => <ForgotPassword />} />
