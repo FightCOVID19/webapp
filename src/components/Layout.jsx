@@ -7,19 +7,19 @@ export const Layout = ({ children, onPressBack, page, totalPages }) => {
   return (
     <div className="ai-layout blue">
       <div className="ai-layout__header">
-        <div className="ai-layout__progress">
+        {page != undefined && totalPages != undefined && <div className="ai-layout__progress">
           <div style={{ width: `${Math.ceil(page / totalPages * 100)}%` }} />
-        </div>
+        </div>}
 
-        <IconButton
+        {onPressBack && <IconButton
           color="primary"
           aria-label="previous page"
           onClick={onPressBack}
         >
           <ArrowBackIcon fontSize="large" />
-        </IconButton>
+        </IconButton>}
       </div>
-      <div className="ai-layout__content">{children}</div>
+      <div className="ai-layout__container">{children}</div>
     </div>
   );
 };
