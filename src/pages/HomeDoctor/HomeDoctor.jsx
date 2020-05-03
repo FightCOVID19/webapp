@@ -7,7 +7,7 @@ import Layout from '../../components/Layout';
 import { ReactComponent as Lungs } from '../../assets/SVG/LUNGS.svg';
 import './HomeDoctor.scss';
 
-function PatientRiskConfirmed(props) {
+function HomeDoctor(props) {
   const onPressUpload = () => {
     props.history.push('/upload');
 
@@ -28,9 +28,9 @@ function PatientRiskConfirmed(props) {
               <FormattedMessage id="home.helpUs"></FormattedMessage>
             </Typography>
             <Typography variant="body2" align="left">
-              <FormattedMessage id={'patientRiskConfirmedXRay.message.1'}></FormattedMessage>
-              <strong><FormattedMessage id={'patientRiskConfirmedXRay.message.2'}></FormattedMessage></strong>
-              <FormattedMessage id={'patientRiskConfirmedXRay.message.3'}></FormattedMessage>
+              <FormattedMessage id={'HomeDoctorXRay.message.1'}></FormattedMessage>
+              <strong><FormattedMessage id={'HomeDoctorXRay.message.2'}></FormattedMessage></strong>
+              <FormattedMessage id={'HomeDoctorXRay.message.3'}></FormattedMessage>
             </Typography>
             <Typography align="left" className='note'>
               <FormattedMessage id="home.bodyDoctor.note"></FormattedMessage>
@@ -69,9 +69,9 @@ function PatientRiskConfirmed(props) {
   );
 }
 
-PatientRiskConfirmed.propTypes = {
+HomeDoctor.propTypes = {
   history: PropTypes.objectOf(Object),
 };
 
-export default PatientRiskConfirmed;
+export default HomeDoctor;
 
