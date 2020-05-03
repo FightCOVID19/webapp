@@ -7,9 +7,11 @@ import './index.scss';
 
 export const Header = () => {
   return (
-    <div className="webapp-header">
-      <Logo className='logo'/>
-      <LogoText className='logo-text'/>
+    <div className="ai-layout">
+      <div className="webapp-header">
+        <Logo className='logo'/>
+        <LogoText className='logo-text'/>
+      </div>
     </div>
   );
 };

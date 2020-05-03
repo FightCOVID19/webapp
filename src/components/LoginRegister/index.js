@@ -1,7 +1,9 @@
 import React, { Component} from 'react';
 import PropTypes from 'prop-types';
 import { FormattedMessage, injectIntl} from 'react-intl';
-import { Typography, Button, TextField, InputLabel, Grid} from '@material-ui/core';
+import { Button, Grid} from '@material-ui/core';
+import ViewFieldsLogin from './ViewFieldsLogin';
+import ViewFieldsRegister from './ViewFieldsRegister';
 import './index.scss';
 
 /**
@@ -12,107 +14,8 @@ import './index.scss';
 class LoginRegister extends Component {
   constructor(props) {
     super(props);
-    this.ViewFieldsLogin = this.ViewFieldsLogin.bind(this);
-    this.ViewFieldsRegister = this.ViewFieldsRegister.bind(this);
     this.onPressLogin = this.onPressLogin.bind(this);
     this.onPressCreateAccount= this.onPressCreateAccount.bind(this);
-    this.onPressForgotPassword = this.onPressForgotPassword.bind(this);
-  }
-
-  /**
-  * View field register
-  */
-  ViewFieldsRegister() {
-    const { formatMessage } = this.props.intl;
-    return (
-      <div className="webapp-register">
-        <Typography variant="h5">
-          <FormattedMessage id="webHome.register"></FormattedMessage>
-        </Typography>
-        <br />
-        <InputLabel>{formatMessage({ id: 'webHome.email' })}</InputLabel>
-        <TextField
-          id="emailRegister"
-          fullWidth
-          type="email"
-          margin="normal"
-          InputLabelProps={{
-            shrink: true,
-          }}
-          placeholder={formatMessage({ id: 'webHome.emailAddress' })}
-          variant="outlined"
-        />
-        <InputLabel>{formatMessage({ id: 'webHome.password' })}</InputLabel>
-        <TextField
-          id="passwordRegister"
-          type="password"
-          fullWidth
-          margin="normal"
-          InputLabelProps={{
-            shrink: true,
-          }}
-          placeholder={formatMessage({ id: 'webHome.myPassword' })}
-          variant="outlined"
-        />
-        <InputLabel>{formatMessage({ id: 'webHome.confirmPassword' })}</InputLabel>
-        <TextField
-          id="confirmPasswordRegister"
-          type="password"
-          fullWidth
-          margin="normal"
-          InputLabelProps={{
-            shrink: true,
-          }}
-          placeholder={formatMessage({ id: 'webHome.repeatPassword' })}
-          variant="outlined"
-        />
-      </div>
-    );
-  }
-
-  /**
-  * View fields login
-  */
-  ViewFieldsLogin() {
-    const { formatMessage } = this.props.intl;
-    return (
-      <div className="webapp-login">
-        <Typography variant="h5">
-          <FormattedMessage id="webHome.login"></FormattedMessage>
-        </Typography>
-        <br />
-        <InputLabel>{formatMessage({ id: 'webHome.email' })}</InputLabel>
-        <TextField
-          id="email"
-          fullWidth
-          type="email"
-          margin="normal"
-          InputLabelProps={{
-            shrink: true,
-          }}
-          placeholder={formatMessage({ id: 'webHome.emailAddress' })}
-          variant="outlined"
-
-        />
-        <InputLabel>{formatMessage({ id: 'webHome.password' })}</InputLabel>
-        <TextField
-          id="password"
-          type="password"
-          fullWidth
-          margin="normal"
-          InputLabelProps={{
-            shrink: true,
-          }}
-          placeholder={formatMessage({ id: 'webHome.myPassword' })}
-          variant="outlined"
-        />
-        <div className="forgot-password">
-          <Button onClick={this.onPressForgotPassword}>
-            <FormattedMessage id="webHome.forgotPassword"></FormattedMessage>
-          </Button>
-        </div>
-      </div>
-    );
   }
 
   /**
@@ -129,25 +32,18 @@ class LoginRegister extends Component {
   onPressCreateAccount() {
   }
 
-  /**
-  * On press forgot password
-  * This function is called by press the link forgot password
-  */
-  onPressForgotPassword() {
-  }
-
   render() {
     return (
       <div className="webapp-login">
         <form noValidate autoComplete="off">
           <Grid container spacing={6}>
-            <Grid item xs={6}>
-              {this.ViewFieldsLogin()}
+            <Grid item xs={12} sm={6}>
+              <ViewFieldsLogin history={this.props.history} />
             </Grid>
-            <Grid item xs={6}>
-              {this.ViewFieldsRegister()}
+            <Grid item xs={12} sm={6}>
+              <ViewFieldsRegister history={this.props.history} />
             </Grid>
-            <Grid item xs={6}>
+            <Grid item xs={12} sm={6}>
               {/* Button Login */}
               <Button
                 variant="contained"
@@ -159,7 +55,7 @@ class LoginRegister extends Component {
                 <FormattedMessage id="webHome.signIn"></FormattedMessage>
               </Button>
             </Grid>
-            <Grid item xs={6}>
+            <Grid item xs={12} sm={6}>
               {/* Button register */}
               <Button
                 variant="contained"

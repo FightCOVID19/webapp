@@ -3,13 +3,9 @@
 \*------------------------------------*/
 
 .webapp-home {
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  background-color: #e7f0f0;
-  padding-left: 5rem;
-  padding-right: 5rem;
 }
 
 .webapp-home .decoration-line-or {
@@ -45,7 +41,7 @@
   margin: 0 0.5rem;
   border: 1px solid black;
   border-radius: 5px;
-  padding: 0 1rem;
+  padding: 0 2.5rem;
 }
 .webapp-home .help {
   text-align: center;
