@@ -32,6 +32,6 @@ https://xd.adobe.com/view/cc668fc8-7a1c-47ad-67b8-fa74c58510d8-ba57/
 
 - [X] Web home unit tests
 - [X] Web home correct spanish translations
-- [ ] Web home add german translation
+- [X] Web home add german translation
 - [ ] Web Home: Add functionality to the functions: onPressFacebook, onPressGoogle and onPressApple
-- [ ] Login Register: Add functionality to the functions: onPressLogin and onPressRegister
+- [ ] Login Register: Add functionality to the functions: onPressLogin, onPressRegister and onForgotPassword
