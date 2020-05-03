@@ -37,13 +37,13 @@ class LoginRegister extends Component {
       <div className="webapp-login">
         <form noValidate autoComplete="off">
           <Grid container spacing={6}>
-            <Grid item xs={12} sm={6}>
+            <Grid item xs={12} sm={12} md={6}>
               <ViewFieldsLogin history={this.props.history} />
             </Grid>
-            <Grid item xs={12} sm={6}>
+            <Grid item xs={12} sm={12} md={6}>
               <ViewFieldsRegister history={this.props.history} />
             </Grid>
-            <Grid item xs={12} sm={6}>
+            <Grid item xs={12} sm={12} md={6}>
               {/* Button Login */}
               <Button
                 variant="contained"
@@ -55,7 +55,7 @@ class LoginRegister extends Component {
                 <FormattedMessage id="webHome.signIn"></FormattedMessage>
               </Button>
             </Grid>
-            <Grid item xs={12} sm={6}>
+            <Grid item xs={12} sm={12} md={6}>
               {/* Button register */}
               <Button
                 variant="contained"
