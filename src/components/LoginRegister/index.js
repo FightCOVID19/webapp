@@ -11,7 +11,7 @@ import './index.scss';
 * @param object intl
 * @param object history
 */
-class LoginRegister extends Component {
+export class LoginRegister extends Component {
   constructor(props) {
     super(props);
     this.onPressLogin = this.onPressLogin.bind(this);
@@ -38,34 +38,44 @@ class LoginRegister extends Component {
         <form noValidate autoComplete="off">
           <Grid container spacing={6}>
             <Grid item xs={12} sm={12} md={6}>
-              <ViewFieldsLogin history={this.props.history} />
+              <div className="formular-login-register">
+                <div className="fields">
+                  <ViewFieldsLogin history={this.props.history} />
+                </div>
+                <div className="button">
+                  {/* Button Login */}
+                  <Button
+                    id="buttonLogin"
+                    variant="contained"
+                    color="primary"
+                    onClick={this.onPressLogin}
+                    size="large"
+                    fullWidth
+                  >
+                    <FormattedMessage id="webHome.signIn"></FormattedMessage>
+                  </Button>
+                </div>
+              </div>
             </Grid>
             <Grid item xs={12} sm={12} md={6}>
-              <ViewFieldsRegister history={this.props.history} />
-            </Grid>
-            <Grid item xs={12} sm={12} md={6}>
-              {/* Button Login */}
-              <Button
-                variant="contained"
-                color="primary"
-                onClick={() => {}}
-                size="large"
-                fullWidth
-              >
-                <FormattedMessage id="webHome.signIn"></FormattedMessage>
-              </Button>
-            </Grid>
-            <Grid item xs={12} sm={12} md={6}>
-              {/* Button register */}
-              <Button
-                variant="contained"
-                color="primary"
-                onClick={() => {}}
-                size="large"
-                fullWidth
-              >
-                <FormattedMessage id="webHome.createAccount"></FormattedMessage>
-              </Button>
+              <div className="formular-login-register">
+                <div className="fields">
+                  <ViewFieldsRegister history={this.props.history} />
+                </div>
+                <div className="button">
+                  {/* Button register */}
+                  <Button
+                    id="buttonRegister"
+                    variant="contained"
+                    color="primary"
+                    onClick={this.onPressCreateAccount}
+                    size="large"
+                    fullWidth
+                  >
+                    <FormattedMessage id="webHome.createAccount"></FormattedMessage>
+                  </Button>
+                </div>
+              </div>
             </Grid>
           </Grid>
         </form>

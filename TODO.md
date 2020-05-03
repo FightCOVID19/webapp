@@ -30,7 +30,8 @@ https://xd.adobe.com/view/cc668fc8-7a1c-47ad-67b8-fa74c58510d8-ba57/
 - [ ] Web Questions1-12
 - [ ] Web Light Symptoms – 1
 
-- [ ] Web home Unit tests 
-- [ ] Web home Correct spanish translations
+- [X] Web home unit tests
+- [X] Web home correct spanish translations
+- [X] Web home add german translation
 - [ ] Web Home: Add functionality to the functions: onPressFacebook, onPressGoogle and onPressApple
-- [ ] Login Register: Add functionality to the functions: onPressLogin and onPressRegister
+- [ ] Login Register: Add functionality to the functions: onPressLogin, onPressRegister and onForgotPassword
