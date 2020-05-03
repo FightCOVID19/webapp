@@ -6,7 +6,7 @@ import { TextField, InputLabel} from '@material-ui/core';
 /**
 * View fields register
 */
-function ViewFieldsRegister(props) {
+export function ViewFieldsRegister(props) {
   const { formatMessage } = props.intl;
 
   return (

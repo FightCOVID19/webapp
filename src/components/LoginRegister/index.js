@@ -11,7 +11,7 @@ import './index.scss';
 * @param object intl
 * @param object history
 */
-class LoginRegister extends Component {
+export class LoginRegister extends Component {
   constructor(props) {
     super(props);
     this.onPressLogin = this.onPressLogin.bind(this);
@@ -39,16 +39,12 @@ class LoginRegister extends Component {
           <Grid container spacing={6}>
             <Grid item xs={12} sm={6}>
               <ViewFieldsLogin history={this.props.history} />
-            </Grid>
-            <Grid item xs={12} sm={6}>
-              <ViewFieldsRegister history={this.props.history} />
-            </Grid>
-            <Grid item xs={12} sm={6}>
               {/* Button Login */}
               <Button
+                id="buttonLogin"
                 variant="contained"
                 color="primary"
-                onClick={() => {}}
+                onClick={this.onPressLogin}
                 size="large"
                 fullWidth
               >
@@ -56,11 +52,13 @@ class LoginRegister extends Component {
               </Button>
             </Grid>
             <Grid item xs={12} sm={6}>
+              <ViewFieldsRegister history={this.props.history} />
               {/* Button register */}
               <Button
+                id="buttonRegister"
                 variant="contained"
                 color="primary"
-                onClick={() => {}}
+                onClick={this.onPressCreateAccount}
                 size="large"
                 fullWidth
               >

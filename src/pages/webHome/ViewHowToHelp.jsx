@@ -6,7 +6,7 @@ import IdentifySymptoms from '../../assets/PNG/BROKEN ARM.png';
 import ImproveDiagnostics from '../../assets/PNG/ASK A DOCTOR.png';
 import HelpGovernments from '../../assets/PNG/SHIFT ROTATION.png';
 
-const howToHelp = [
+export const howToHelp = [
   {
     title: 'webHome.howToHelp1.title',
     description: 'webHome.howToHelp1.description',
@@ -30,7 +30,7 @@ const howToHelp = [
 function ViewHowToHelp() {
   return (
     howToHelp.map(help => (
-      <Grid item xs={12} sm={12} md={4} key={help.title} alignContent="center">
+      <Grid item xs={12} sm={12} md={4} key={help.title}>
         <div className="help">
           <img src={help.image} />
           <h5>
