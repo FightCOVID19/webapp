@@ -31,7 +31,6 @@ if (messages[language] === undefined) {
   language = defaultLanguage;
 }
 
-language = 'de'
 const rootElement = document.getElementById('root');
 ReactDOM.render(
   <Provider store={store}>

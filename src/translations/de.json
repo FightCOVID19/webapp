@@ -69,7 +69,7 @@
   "webHome.myPassword": "Mein Passwort",
   "webHome.forgotPassword": "Passwort vergessen? {important}",
   "webHome.forgotPassword.important": "wiederherstellen",
-  "webHome.register": "Register",
+  "webHome.register": "Registrieren",
   "webHome.confirmPassword": "Passwort bestätigen",
   "webHome.repeatPassword": "Wiederholen Sie das Passwort",
   "webHome.createAccount": "Konto erstellen",
