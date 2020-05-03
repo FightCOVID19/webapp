@@ -10,6 +10,7 @@ https://xd.adobe.com/view/cc668fc8-7a1c-47ad-67b8-fa74c58510d8-ba57/
 - [ ] Web Register
 - [ ] Web Register Doctor
 - [X] Web Home Doctor
+- [ ] Web Home Doctor Drag & Drop behavior
 - [ ] Web Upload Xray2-5
 - [ ] Web Dr History
 - [ ] Web Dr History Selected
