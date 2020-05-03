@@ -1,0 +1,20 @@
+/*------------------------------------*\
+  #HEADER
+\*------------------------------------*/
+
+.webapp-header {
+  height: 50px;
+  display: flex;
+  padding: 1rem 0em;
+}
+
+.webapp-header .logo {
+  max-width: 40px;
+  max-height: 50px;
+}
+
+.webapp-header .logo-text text{
+  fill: #5E17EB;
+  font-weight: normal;
+  font-size: larger;
+}

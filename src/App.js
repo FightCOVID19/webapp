@@ -4,8 +4,6 @@ import { ThemeProvider } from '@material-ui/styles';
 
 import Amplify from 'aws-amplify';
 // import awsconfig from './aws-exports';
-
-import Home from './pages/Home';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
 import ForgotPassword from './pages/ForgotPassword';
@@ -17,11 +15,11 @@ import { OnboardingPage } from './pages/onboarding/OnboardingPage';
 import AgePage from './pages/age/AgePage';
 import HomePage from './pages/home/HomePage';
 import HowDoYouFeel from './pages/howDoYouFeel/HowDoYouFeel';
+import WebHome from './pages/webHome';
 import PatientQuizLaunch from './pages/PatientQuizLaunch';
 import Wohoo from './pages/Wohoo';
 import PatientRiskConfirmed from './pages/PatientRiskConfirmed';
 import PatientRiskConfirmedXRay from './pages/PatientRiskConfirmedXRay/PatientRiskConfirmedXRay';
-
 
 //Amplify.configure(awsconfig);
 
@@ -30,7 +28,7 @@ function App() {
   return (
     <ThemeProvider theme={paisanosTheme}>
       <main>
-        <Route exact path='/home' render={() => <Home />} />
+        <Route exact path='/home' render={(props) => <WebHome {...props} />} />
         <Route exact path='/signUp' render={() => <SignUp />} />
         <Route exact path='/' render={() => <Login />} />
         <Route exact path='/forgot' render={() => <ForgotPassword />} />

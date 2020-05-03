@@ -3,12 +3,12 @@ import { Provider } from 'react-redux';
 import { BrowserRouter as Router } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import 'typeface-roboto';
-
-
 import './scss/index.scss';
+
 import * as serviceWorker from './serviceWorker';
 
 import App from './App';
+import Header from './components/Header';
 import store from './store';
 
 import { IntlProvider } from 'react-intl';
@@ -34,6 +34,7 @@ if (messages[language] === undefined) {
 const rootElement = document.getElementById('root');
 ReactDOM.render(
   <Provider store={store}>
+    <Header />
     <Router>
       <IntlProvider locale={language} messages={messages[language]}>
         <App />

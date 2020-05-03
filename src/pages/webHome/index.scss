@@ -1,0 +1,52 @@
+/*------------------------------------*\
+  #WEB HOME SCREENS
+\*------------------------------------*/
+
+.webapp-home {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.webapp-home .decoration-line-or {
+  padding-top: 0px !important;
+}
+.webapp-home .decoration-line-or .wrapper{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.webapp-home .decoration-line-or .wrapper .line {
+  width: 45%;
+}
+
+.webapp-home .decoration-line-or .wrapper .or {
+  width: 10%;
+  text-align: center;
+}
+
+.webapp-home .icons-google-facebook-apple {
+  padding-top: 0px !important;
+  padding-bottom: 48px !important;
+
+}
+.webapp-home .icons-google-facebook-apple .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.webapp-home .icons-google-facebook-apple .wrapper>div {
+  text-align: center;
+  margin: 0 0.5rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0 2.5rem;
+}
+.webapp-home .help {
+  text-align: center;
+}
+.webapp-home .help>img{
+  max-height: 150px;
+  margin-bottom: 1rem;
+}

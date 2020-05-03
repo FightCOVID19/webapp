@@ -5,7 +5,7 @@
 Based on mocks:
 https://xd.adobe.com/view/cc668fc8-7a1c-47ad-67b8-fa74c58510d8-ba57/
 
-- [ ] Web Home
+- [X] Web Home
 - [ ] Web Verification
 - [ ] Web Register
 - [ ] Web Register Doctor
@@ -29,3 +29,8 @@ https://xd.adobe.com/view/cc668fc8-7a1c-47ad-67b8-fa74c58510d8-ba57/
 - [ ] Web Quiz Intro
 - [ ] Web Questions1-12
 - [ ] Web Light Symptoms – 1
+
+- [ ] Web home Unit tests 
+- [ ] Web home Correct spanish translations
+- [ ] Web Home: Add functionality to the functions: onPressFacebook, onPressGoogle and onPressApple
+- [ ] Login Register: Add functionality to the functions: onPressLogin and onPressRegister
