@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { FormattedMessage, injectIntl} from 'react-intl';
-import { Typography, Button, TextField, InputLabel} from '@material-ui/core';
+import { Button, TextField, InputLabel} from '@material-ui/core';
 
 /**
 * View fields login
@@ -18,10 +18,9 @@ function ViewFieldsLogin(props) {
 
   return (
     <div className="webapp-login">
-      <Typography variant="h5">
+      <h4>
         <FormattedMessage id="webHome.login"></FormattedMessage>
-      </Typography>
-      <br />
+      </h4>
       <InputLabel>{formatMessage({ id: 'webHome.email' })}</InputLabel>
       <TextField
         id="email"
@@ -49,7 +48,13 @@ function ViewFieldsLogin(props) {
       />
       <div className="forgot-password">
         <Button onClick={onPressForgotPassword}>
-          <FormattedMessage id="webHome.forgotPassword"></FormattedMessage>
+          <FormattedMessage
+            id="webHome.forgotPassword"
+            defaultMessage={formatMessage({ id: 'webHome.forgotPassword' })}
+            values={{
+              important: <b>{formatMessage({ id: 'webHome.forgotPassword.important' })}</b>,
+            }}
+          />
         </Button>
       </div>
     </div>

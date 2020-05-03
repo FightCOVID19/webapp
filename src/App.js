@@ -21,7 +21,6 @@ import Wohoo from './pages/Wohoo';
 import PatientRiskConfirmed from './pages/PatientRiskConfirmed';
 import PatientRiskConfirmedXRay from './pages/PatientRiskConfirmedXRay/PatientRiskConfirmedXRay';
 
-
 //Amplify.configure(awsconfig);
 
 

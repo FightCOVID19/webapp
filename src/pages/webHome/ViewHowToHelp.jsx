@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Typography, Grid } from '@material-ui/core';
+import { Grid } from '@material-ui/core';
 import { FormattedMessage } from 'react-intl';
 import IdentifySymptoms from '../../assets/PNG/BROKEN ARM.png';
 import ImproveDiagnostics from '../../assets/PNG/ASK A DOCTOR.png';
@@ -30,14 +30,16 @@ const howToHelp = [
 function ViewHowToHelp() {
   return (
     howToHelp.map(help => (
-      <Grid item xs={12} sm={4} key={help.title} alignContent="center">
+      <Grid item xs={12} sm={12} md={4} key={help.title} alignContent="center">
         <div className="help">
           <img src={help.image} />
-          <Typography variant="h6">
+          <h5>
             <FormattedMessage id={help.title}></FormattedMessage>
-          </Typography>
+          </h5>
           <br />
-          <FormattedMessage id={help.description}></FormattedMessage>
+          <p>
+            <FormattedMessage id={help.description}></FormattedMessage>
+          </p>
         </div>
       </Grid>
     ))

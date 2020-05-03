@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { FormattedMessage, injectIntl} from 'react-intl';
-import { Typography, TextField, InputLabel} from '@material-ui/core';
+import { TextField, InputLabel} from '@material-ui/core';
 
 /**
 * View fields register
@@ -11,10 +11,9 @@ function ViewFieldsRegister(props) {
 
   return (
     <div className="webapp-register">
-      <Typography variant="h5">
+      <h4>
         <FormattedMessage id="webHome.register"></FormattedMessage>
-      </Typography>
-      <br />
+      </h4>
       <InputLabel>{formatMessage({ id: 'webHome.email' })}</InputLabel>
       <TextField
         id="emailRegister"
