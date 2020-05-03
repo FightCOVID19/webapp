@@ -16,59 +16,56 @@ function PatientRiskConfirmed(props) {
   const displayName = 'Bruce';
 
   return (
-    <div>
-      <Layout
-      >
-        <div className='ai-layout__content'>
-          <Grid container spacing={3} justify="center"
-            alignItems="center">
-            <Grid item xs={12} sm={7}>
-              <Typography variant="h2" align="left">
-                <FormattedMessage id="home.welcome"></FormattedMessage> {displayName}!
-              </Typography>
-              <Typography variant="body2" align="left" className='help-us'>
-                <FormattedMessage id="home.helpUs"></FormattedMessage>
-              </Typography>
-              <Typography variant="body2" align="left">
-                <FormattedMessage id={'patientRiskConfirmedXRay.message.1'}></FormattedMessage>
-                <strong><FormattedMessage id={'patientRiskConfirmedXRay.message.2'}></FormattedMessage></strong>
-                <FormattedMessage id={'patientRiskConfirmedXRay.message.3'}></FormattedMessage>
-              </Typography>
-              <Typography align="left" className='note'>
-                <FormattedMessage id="home.bodyDoctor.note"></FormattedMessage>
-              </Typography>
-            </Grid>
-            <Grid item xs={12} sm={5} className='secondPanel'
-            >
-
-              <Button className='paper' onClick={onPressUpload}>
-                <Paper>
-                  <Lungs></Lungs>
-                  <Typography variant="body2" align="center">
-                    <FormattedMessage id="home.dragAndDrop"></FormattedMessage>
-                  </Typography>
-                </Paper>
-              </Button>
-              <Typography className='or' align="center">
-                <FormattedMessage id="app.or"></FormattedMessage>
-              </Typography>
-              <Button
-                onClick={onPressUpload}
-                color="primary"
-                variant="outlined"
-                size="large"
-              >
-                <FormattedMessage
-                  id={'home.openFile'}
-                ></FormattedMessage>
-              </Button>
-
-
-            </Grid>
+    <Layout
+    >
+      <div className='ai-layout__content'>
+        <Grid container spacing={10} >
+          <Grid item xs={12} sm={7} className='firstPanel'>
+            <Typography variant="h2" align="left">
+              <FormattedMessage id="home.welcome"></FormattedMessage> {displayName}!
+            </Typography>
+            <Typography variant="body2" align="left" className='help-us'>
+              <FormattedMessage id="home.helpUs"></FormattedMessage>
+            </Typography>
+            <Typography variant="body2" align="left">
+              <FormattedMessage id={'patientRiskConfirmedXRay.message.1'}></FormattedMessage>
+              <strong><FormattedMessage id={'patientRiskConfirmedXRay.message.2'}></FormattedMessage></strong>
+              <FormattedMessage id={'patientRiskConfirmedXRay.message.3'}></FormattedMessage>
+            </Typography>
+            <Typography align="left" className='note'>
+              <FormattedMessage id="home.bodyDoctor.note"></FormattedMessage>
+            </Typography>
           </Grid>
-        </div>
-      </Layout>
-    </div>
+          <Grid item xs={12} sm={5} className='secondPanel'
+          >
+
+            <Button className='paper' onClick={onPressUpload}>
+              <Paper>
+                <Lungs></Lungs>
+                <Typography variant="body2" align="center">
+                  <FormattedMessage id="home.dragAndDrop"></FormattedMessage>
+                </Typography>
+              </Paper>
+            </Button>
+            <Typography className='or' align="center">
+              <FormattedMessage id="app.or"></FormattedMessage>
+            </Typography>
+            <Button
+              onClick={onPressUpload}
+              color="primary"
+              variant="outlined"
+              size="large"
+            >
+              <FormattedMessage
+                id={'home.openFile'}
+              ></FormattedMessage>
+            </Button>
+
+
+          </Grid>
+        </Grid>
+      </div>
+    </Layout>
   );
 }
 
