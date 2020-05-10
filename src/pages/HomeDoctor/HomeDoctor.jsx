@@ -28,9 +28,9 @@ function HomeDoctor(props) {
               <FormattedMessage id="home.helpUs"></FormattedMessage>
             </Typography>
             <Typography variant="body2" align="left">
-              <FormattedMessage id={'HomeDoctorXRay.message.1'}></FormattedMessage>
-              <strong><FormattedMessage id={'HomeDoctorXRay.message.2'}></FormattedMessage></strong>
-              <FormattedMessage id={'HomeDoctorXRay.message.3'}></FormattedMessage>
+              <FormattedMessage id={'patientRiskConfirmedXRay.message.1'}></FormattedMessage>
+              <strong><FormattedMessage id={'patientRiskConfirmedXRay.message.2'}></FormattedMessage></strong>
+              <FormattedMessage id={'patientRiskConfirmedXRay.message.3'}></FormattedMessage>
             </Typography>
             <Typography align="left" className='note'>
               <FormattedMessage id="home.bodyDoctor.note"></FormattedMessage>
@@ -40,7 +40,7 @@ function HomeDoctor(props) {
           >
 
             <Button className='paper' onClick={onPressUpload}>
-              <Paper>
+              <Paper className='dashed'>
                 <Lungs></Lungs>
                 <Typography variant="body2" align="center">
                   <FormattedMessage id="home.dragAndDrop"></FormattedMessage>
