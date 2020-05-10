@@ -1,3 +1,5 @@
+$theme-color-secondary: #5E17EB;
+
 main {
   .MuiButton-outlined {
     border-width: 2px;
@@ -5,5 +7,5 @@ main {
 }
 
 .secondary {
-  color: #5E17EB
+  color: $theme-color-secondary
 }
