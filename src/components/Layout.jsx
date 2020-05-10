@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import { IconButton } from '@material-ui/core';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 
-export const Layout = ({ children, onPressBack, page, totalPages }) => {
+export const Layout = ({ children, onPressBack, page, totalPages, color = 'white' }) => {
   return (
-    <div className="ai-layout blue">
+    <div className={`ai-layout ${color}`}>
       <div className="ai-layout__header">
         {page != undefined && totalPages != undefined && <div className="ai-layout__progress">
           <div style={{ width: `${Math.ceil(page / totalPages * 100)}%` }} />
@@ -31,7 +31,8 @@ Layout.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.node
-  ]).isRequired
+  ]).isRequired,
+  color: PropTypes.string,
 };
 
 export default Layout;
