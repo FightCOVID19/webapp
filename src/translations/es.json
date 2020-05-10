@@ -61,6 +61,7 @@
   "howDoYouFeel.title": "¿Cómo te sientes hoy?",
   "howDoYouFeel.notGood": "No muy bien :(",
   "howDoYouFeel.great": "Muy bien!",
+  "howDoYouFeel.whatShouldIDo": "¿Qué debo hacer?",
   "webHome.title": "Ayúdanos a luchar contra COVID-19",
   "webHome.description1": "Somos un grupo de profesionales que se ofrecen como voluntarios para crear una IA que ayudará a los hospitales y médicos de todo el mundo a diagnosticar COVID-19 más rápido con los rayos X.",
   "webHome.description2": "En este momento {important1} necesitamos su ayuda para obtener toda la información disponible, si usted es un doctor que tiene radiografías de pacientes diagnosticados o un paciente con radiografías de los últimos 14 días lo necesitamos! {important2} tus datos para poder alimentar nuestra IA con la información correcta.",

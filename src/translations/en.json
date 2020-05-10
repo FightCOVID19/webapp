@@ -61,6 +61,7 @@
   "howDoYouFeel.title": "How do you feel today?",
   "howDoYouFeel.notGood": "Not so good :(",
   "howDoYouFeel.great": "Great!",
+  "howDoYouFeel.whatShouldIDo": "What should I do?",
   "webHome.title": "Help us fight COVID-19",
   "webHome.description1": "We are a group of professionals volunteering to create an AI that will help hospitals and doctors all around the world to diagnose COVID-19 faster with X-Ray scans.",
   "webHome.description2": "Right now {important1} to get all the information available, if you are a doctor that has X-Rays of diagnosed patients or a patient with X-Rays of the past 14 days we need you! {important2} your data to be able to feed our AI with the correct information.",
