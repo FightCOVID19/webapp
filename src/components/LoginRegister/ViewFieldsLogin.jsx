@@ -6,7 +6,7 @@ import { Button, TextField, InputLabel} from '@material-ui/core';
 /**
 * View fields login
 */
-function ViewFieldsLogin(props) {
+export function ViewFieldsLogin(props) {
   const { formatMessage } = props.intl;
 
   /**
@@ -47,7 +47,7 @@ function ViewFieldsLogin(props) {
         variant="outlined"
       />
       <div className="forgot-password">
-        <Button onClick={onPressForgotPassword}>
+        <Button id="buttonForgotPassword" onClick={onPressForgotPassword}>
           <FormattedMessage
             id="webHome.forgotPassword"
             defaultMessage={formatMessage({ id: 'webHome.forgotPassword' })}
