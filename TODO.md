@@ -9,14 +9,15 @@ https://xd.adobe.com/view/cc668fc8-7a1c-47ad-67b8-fa74c58510d8-ba57/
 - [ ] Web Verification
 - [ ] Web Register
 - [ ] Web Register Doctor
-- [ ] Web Home Doctor
+- [X] Web Home Doctor
+- [X] Web Home Doctor Drag & Drop behavior
 - [ ] Web Upload Xray2-5
 - [ ] Web Dr History
 - [ ] Web Dr History Selected
 - [ ] Web Dr History Selected Show1-2
 - [ ] Web Register Patient
-- [ ] Web Home Patient
-- [ ] Web Great1-2
+- [X] Web Home Patient
+- [X] Web Great1-2
 - [ ] Web Light Symptoms
 - [ ] Web PA Account
 - [ ] Web PA Account Edit
@@ -25,7 +26,7 @@ https://xd.adobe.com/view/cc668fc8-7a1c-47ad-67b8-fa74c58510d8-ba57/
 - [ ] Web PA History
 - [ ] Web PA History Selected Show1 1-1
 - [ ] Close Contact pop-up
-- [ ] Web NotGood1
+- [X] Web NotGood1
 - [ ] Web Quiz Intro
 - [ ] Web Questions1-12
 - [ ] Web Light Symptoms – 1

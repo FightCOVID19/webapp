@@ -1,0 +1,52 @@
+@import "../../scss/material-ui.scss";
+
+.ai-layout__content.home-patient {
+  .first {
+    text-align: right;
+  }
+
+  .second {
+    text-align: left;
+  }
+
+  button.paper {
+    height: initial;
+    text-transform: inherit;
+    width: 360px;
+    max-width: 100%;
+
+    .MuiPaper-root {
+      width: 100%;
+      padding: 3em 0;
+      display: block;
+    }
+  }
+
+  button.paper.selected {
+    .MuiPaper-root {
+      background-color: $theme-color-secondary;
+      color: white;
+    }
+  }
+
+  .MuiGrid-container {
+    text-align: center;
+  }
+
+  h3.MuiTypography-h3 {
+    font-weight: normal;
+  }
+}
+
+@media (max-width: 600px) {
+  .ai-layout__content.home-patient {
+    .first {
+      text-align: inherit;
+    }
+
+    .second {
+      text-align: inherit;
+    }
+
+  }
+}

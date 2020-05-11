@@ -5,7 +5,8 @@
 .webapp-header {
   height: 50px;
   display: flex;
-  padding: 1rem 0em;
+  padding-bottom: 1em;
+  padding-top: 1em;
 }
 
 .webapp-header .logo {
@@ -13,7 +14,7 @@
   max-height: 50px;
 }
 
-.webapp-header .logo-text text{
+.webapp-header .logo-text text {
   fill: #5E17EB;
   font-weight: normal;
   font-size: larger;

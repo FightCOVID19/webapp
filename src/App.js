@@ -20,6 +20,8 @@ import PatientQuizLaunch from './pages/PatientQuizLaunch';
 import Wohoo from './pages/Wohoo';
 import PatientRiskConfirmed from './pages/PatientRiskConfirmed';
 import PatientRiskConfirmedXRay from './pages/PatientRiskConfirmedXRay/PatientRiskConfirmedXRay';
+import HomeDoctor from './pages/HomeDoctor';
+import HomePatient from './pages/HomePatient';
 
 //Amplify.configure(awsconfig);
 
@@ -29,6 +31,8 @@ function App() {
     <ThemeProvider theme={paisanosTheme}>
       <main>
         <Route exact path='/home' render={(props) => <WebHome {...props} />} />
+        <Route exact path='/home-doctor' render={(props) => <HomeDoctor {...props} />}  />
+        <Route exact path='/home-patient' render={(props) => <HomePatient {...props} />}  />
         <Route exact path='/signUp' render={() => <SignUp />} />
         <Route exact path='/' render={() => <Login />} />
         <Route exact path='/forgot' render={() => <ForgotPassword />} />

@@ -4,6 +4,35 @@ body {
   margin: 0;
 }
 
+div#root,
+body,
+main,
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+div#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: red;
+  height: 64px;
+  width: 100%;
+}
+
+.main {
+  background-color: blue;
+  min-height: 64px;
+  flex-grow: 1;
+  width: 100%;
+}
+
+
+
 @import "./screens/screens.scss";
 @import "./font.scss";
 @import "./material-ui.scss";
