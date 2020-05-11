@@ -1,10 +1,6 @@
 @import "../../scss/material-ui.scss";
 
 .ai-layout__content.home-patient {
-  .help-us {
-    margin: 2em 0;
-  }
-
   .first {
     text-align: right;
   }
@@ -35,6 +31,10 @@
 
   .MuiGrid-container {
     text-align: center;
+  }
+
+  h3.MuiTypography-h3 {
+    font-weight: normal;
   }
 }
 

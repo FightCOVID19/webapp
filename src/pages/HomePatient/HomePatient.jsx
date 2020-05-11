@@ -32,7 +32,7 @@ function HomePatient(props) {
         <Typography variant="h2" align="left">
           <FormattedMessage id="home.welcome"></FormattedMessage> {displayName}!
         </Typography>
-        <Typography variant="body2" align="left" className='help-us'>
+        <Typography variant="body2" align="left">
           <FormattedMessage id="howDoYouFeel.title"></FormattedMessage>
         </Typography>
         <Grid container
@@ -42,7 +42,7 @@ function HomePatient(props) {
             <Button className={`paper ${selection === 'NOT_GOOD' ? 'selected' : ''}`} onClick={onPressSelectNotGood}>
               <Paper>
                 <Depression></Depression>
-                <Typography variant="body2" align="center">
+                <Typography variant="h3" align="center">
                   <FormattedMessage id="howDoYouFeel.notGood"></FormattedMessage>
                 </Typography>
               </Paper>
@@ -52,7 +52,7 @@ function HomePatient(props) {
             <Button className={`paper ${selection === 'GREAT' ? 'selected' : ''}`} onClick={onPressSelectGreat}>
               <Paper>
                 <Diagnostic></Diagnostic>
-                <Typography variant="body2" align="center">
+                <Typography variant="h3" align="center">
                   <FormattedMessage id="howDoYouFeel.whatShouldIDo"></FormattedMessage>
                 </Typography>
               </Paper>
